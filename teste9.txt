@@ -1,0 +1,12 @@
+program teste9;
+declare
+    i: integer;
+begin
+    i := 1;
+    while i <= 10 do
+    begin
+        if i mod 2 = 0 then
+            write i;
+        i := i + 1;
+    end;
+end.

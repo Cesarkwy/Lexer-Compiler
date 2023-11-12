@@ -1,0 +1,11 @@
+program teste8;
+declare
+    x: integer;
+begin
+    x := 10;
+    if x > 5 then
+        write "x maior que 5";
+    else
+        write "x menor ou igual a 5";
+    end;
+end.
